@@ -2,74 +2,65 @@
 
 body {
   font-family: consolas;
-  border: 5px solid black;
-}
-
-.profile-pic {
+ color:yellowgreen;
+  border: 5px solid whitesmoke;
+  background-image: url(./assets/electro_circ.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
   
- 
-  border-style: outset;
- 
 }
-
-.home {
+.container {
+  margin: 30px;
+}
+/* 
+  
+  
+}*/
+.home-header {
   background-image: url(./assets/bottom_forest.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 20rem;
 }
 
-.header {
-  height: auto;
-}
-
-.title {
-  position: bottom;
-  color: white;
-}
-
-.details-title {
-  width: 166px;
-}
-
-.jobs,
-.volunteer {
-  display: none;
-  font-size: 10px;
-}
-
-.about-me {
-  text-indent: 13px;
-  padding-left: 23px;
-  padding-right: 0px;
-}
-
-.p {
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
-}
-
+/*social networking list*/
 .social-list {
   list-style-type: none;
 }
-
-.nav {
-  list-style-type: none;
-  padding-inline-start: 25%;
+.all-content {
+  text-align: center;
 }
 
-.content {
-  display: flex;
+.skill {
+  text-align: center;
+  margin-top: 1rem;
 }
 
-.about-me {
-  width: 100%;
+.skill-item {
+  -webkit-box-shadow: 0 0 20px 1px #313a3a;
+  box-shadow: 0 0 20px 1px #313a3a;
+  padding: 0.5rem;
+  width: 40%;
+  margin: 0.1rem auto;
+  font-size: 70%;
+  font-weight: bold;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.footer {
-  display: inline-block;
-  position: bottom;
+.skill-item:nth-child(odd) {
+  background-color: #321e53;
+  color: #fbfefb;
+}
+
+.skill-item:nth-child(even) {
+  background-color: #321e53;
+  color: #fbfefb;
 }
 
 .footer-list {
