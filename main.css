@@ -1,32 +1,77 @@
-/*global styles */
-section {border: solid;} 
-  
-body {font-family: consolas;}
+/*global styles*/
 
-.header {
-    height: 300px;
-    background-image: url(./assets/bottom_forest.png);
-    background-size: cover;
+body {
+  font-family: consolas;
+  border: 5px solid black;
 }
 
-.title { position: bottom;}
+.profile-pic {
+  
+ 
+  border-style: outset;
+ 
+}
 
-.profile-pic {position: absolute;margin-top: 138px;}
+.home {
+  background-image: url(./assets/bottom_forest.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-.details-title{width: 166px;}
+.header {
+  height: auto;
+}
 
-.jobs, .volunteer {display: none; font-size: 10px;}
+.title {
+  position: bottom;
+  color: white;
+}
 
-.button1:hover+.jobs, .button2:hover+.volunteer { display: inline-block; position: absolute;}
+.details-title {
+  width: 166px;
+}
 
-.social-list {list-style-type: none;}
+.jobs,
+.volunteer {
+  display: none;
+  font-size: 10px;
+}
 
-.nav{list-style-type: none;padding-inline-start: 25%}
+.about-me {
+  text-indent: 13px;
+  padding-left: 23px;
+  padding-right: 0px;
+}
 
-.content {display: flex;}
+.p {
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
 
-.about-me { width: 100%;}
+.social-list {
+  list-style-type: none;
+}
 
-.footer{display: inline-block ;position:bottom;}
+.nav {
+  list-style-type: none;
+  padding-inline-start: 25%;
+}
 
-.footer-list{list-style-type: none;}
+.content {
+  display: flex;
+}
+
+.about-me {
+  width: 100%;
+}
+
+.footer {
+  display: inline-block;
+  position: bottom;
+}
+
+.footer-list {
+  list-style-type: none;
+}
