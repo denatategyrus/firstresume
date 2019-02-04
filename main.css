@@ -2,39 +2,39 @@
 
 body {
   font-family: consolas;
- color:yellowgreen;
+  color: yellowgreen;
   border: 5px solid whitesmoke;
+}
+.main {
+  margin: 3rem;
   background-image: url(./assets/electro_circ.gif);
+  opacity: 0.8;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  
 }
-.container {
-  margin: 30px;
-}
-/* 
-  
-  
-}*/
+/*.profile-pic {
+  margin-top: 22.6rem;
+  margin-left: 19rem;}*/
+
+
 .home-header {
   background-image: url(./assets/bottom_forest.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 20rem;
 }
-
+.about-me{margin-top: 7rem;}
 /*social networking list*/
+
 .social-list {
   list-style-type: none;
 }
-.all-content {
-  text-align: center;
-}
 
-.skill {
+
+.skill-content{
   text-align: center;
-  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .skill-item {
@@ -65,4 +65,5 @@ body {
 
 .footer-list {
   list-style-type: none;
+  color: yellowgreen;
 }
