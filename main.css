@@ -3,20 +3,14 @@
 body {
   font-family: consolas;
   color: yellowgreen;
-  border: 5px solid whitesmoke;
+  border: 5px solid #313a3a;
 }
 .main {
   margin: 3rem;
-  background-image: url(./assets/electro_circ.gif);
-  opacity: 0.8;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 /*.profile-pic {
   margin-top: 22.6rem;
   margin-left: 19rem;}*/
-
 
 .home-header {
   background-image: url(./assets/bottom_forest.png);
@@ -24,32 +18,42 @@ body {
   background-repeat: no-repeat;
   height: 20rem;
 }
-.about-me{margin-top: 7rem;}
+.about-me {
+  margin-top: 0rem;
+  background-image: url(./assets/electro_circ.gif);
+  opacity: 1;
+}
+
 /*social networking list*/
+
+.allaboutme {
+  padding: 1rem;
+  position:contained;
+}
+
+.title-about-me {
+  padding: 1rem;
+  margin: 0;
+}
 
 .social-list {
   list-style-type: none;
 }
 
-
-.skill-content{
+.skill-content {
   text-align: center;
   padding-bottom: 1rem;
 }
 
 .skill-item {
-  -webkit-box-shadow: 0 0 20px 1px #313a3a;
+ 
   box-shadow: 0 0 20px 1px #313a3a;
   padding: 0.5rem;
   width: 40%;
   margin: 0.1rem auto;
-  font-size: 70%;
+  font-size: 80%;
   font-weight: bold;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -65,5 +69,6 @@ body {
 
 .footer-list {
   list-style-type: none;
-  color: yellowgreen;
+  color: black;
+  background-image: url(./assets/tvstatic.gif);
 }
