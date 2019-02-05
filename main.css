@@ -2,33 +2,60 @@
 
 body {
   font-family: consolas;
-  color: yellowgreen;
-  border: 5px solid #313a3a;
+
+  background-color: #313a3a;
 }
 .main {
   margin: 3rem;
 }
-/*.profile-pic {
-  margin-top: 22.6rem;
-  margin-left: 19rem;}*/
+.profile-pic {
+  margin-top: 14.5rem;
+  position: absolute;
+}
+/*margin-left: 19rem;}*/
 
 .home-header {
   background-image: url(./assets/bottom_forest.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 20rem;
+  height: 27rem;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4caf50;
 }
 .about-me {
   margin-top: 0rem;
+  margin-bottom: 3rem;
   background-image: url(./assets/electro_circ.gif);
-  opacity: 1;
+  opacity: 6;
+  color: rgb(191, 235, 104);
 }
 
 /*social networking list*/
 
 .allaboutme {
-  padding: 1rem;
-  position:contained;
+  padding: 5rem;
 }
 
 .title-about-me {
@@ -36,17 +63,14 @@ body {
   margin: 0;
 }
 
-.social-list {
-  list-style-type: none;
-}
-
 .skill-content {
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  background-image: url(./assets/tvstatic.gif);
+  position: relative;
 }
 
 .skill-item {
- 
   box-shadow: 0 0 20px 1px #313a3a;
   padding: 0.5rem;
   width: 40%;
@@ -67,8 +91,39 @@ body {
   color: #fbfefb;
 }
 
-.footer-list {
+.footer {
+  display: inline-flex;
+  height: 20rem;
+}
+li a {
+  color: red;
+}
+
+.social-list {
   list-style-type: none;
-  color: black;
-  background-image: url(./assets/tvstatic.gif);
+  position: absolute;
+  margin-top: 6rem;
+}
+
+.social-networking {
+  background-image: url(./assets/hand.jpg);
+  background-size: cover;
+  width: 44.8%;
+  float: left;
+  margin-left: 3rem;
+  height: 20rem;
+  margin-right: 1rem;
+}
+.contact-list {
+  list-style-type: none;
+  position: absolute;
+  margin-top: 6rem;
+}
+.contact-details {
+  background-image: url(./assets/hand.jpg);
+  background-size: cover;
+  width: 44%;
+  display: inline-block;
+  height: 20rem;
+  margin-right: 1rem;
 }
