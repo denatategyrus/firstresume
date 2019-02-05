@@ -63,6 +63,33 @@ body {
   margin: 0;
 }
 
+.experience-content{display: inline-block;}
+
+.collapsible {
+  box-shadow: 0 0 20px 1px #313a3a;
+  background-color: #777;
+  color: rgb(10, 9, 9);
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: space-around;
+  font-size: 15px;
+  margin-bottom: 1rem
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #bdae5d;
+}
+
 .skill-content {
   text-align: center;
   padding: 1rem;

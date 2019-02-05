@@ -16,7 +16,7 @@
       <h3 class="home-title">Alex Ivascu's Resume</h3>
       <div class="home-text"></div>
     </div>
-    
+
     <div class="icon-bar">
       <a class="active" href="#"><i class="fa fa-home"></i></a>
       <a href="#"><i class="fa fa-search"></i></a>
@@ -45,6 +45,91 @@
           languages, I love cycling swimming and outdoor activities.
         </p>
       </div>
+
+      <div class="experience-content">
+        <button class="collapsible">
+          <b>HRIS ERP Systems and Database Analyst/Admin. - GVC Group</b>
+        </button>
+        <div class="content">
+          <p>
+            <b>Description</b> : The ERP systems and database analyst & administrator
+            cultivates an executive presence through engagement with management
+            and stakeholders at all levels of the organisation, supporting
+            management with financial and operational analysis, project
+            management, reporting, measuring of data and statistics. I am
+            responsible for the system(s) data integrity and maintenance,
+            system’s functionality, training and support to ensure easy-going
+            user interaction with the system and will support functionality of
+            other ERP systems as required by the business. In addition will be
+            ensuring the accurate and timely preparation of reports,
+            presentations and analytics and will provide appropriate
+            consultative services via written and verbal communications to
+            support decision making at all levels of the organisation.<br></br>
+            <b>Responsibilities</b> : Ensure maintenance of system data, values, codes,
+            tables, business processes, security and system interfaces •Monitors
+            system performance against SLAs •Ensure system data confidentiality
+            is maintained •Create and support 3rd party integrations procedure
+            •Review source documents for accuracy and compliance against company
+            procedure •Continuously audit the databases and data-flow within the
+            system for integrity and continuity •Serve as liaison on technical,
+            equipment and system matters between peers •Provide training for
+            system users as needed (leading individual and/or group training)
+            •SME for procurement system queries •Individual and collaborative
+            system designing activities •Acts as liaison between Oracle
+            developers, database architects and other players •Analysis and
+            design/support of business processes and procedures •Supports
+            organizational communications •Create test scenarios and tests
+            changes and implementations to core data feeds and system(s)
+            •Coordinate/participate and/or oversee system upgrades and
+            implementations •Provides support and/or coordinates AP related
+            queries to facilitate.
+          </p>
+        </div>
+        <button class="collapsible">
+          <b>Payments Administrator - SPIE Ltd</b>
+        </button>
+        <div class="content">
+          <p>
+            <b>Description</b> : The Payments Administrator plays a pivotal role in the
+            dynamic environment of the Finance Department to ensure that SLAs
+            are consistently met. Acting as resolute SPOC for clients,
+            suppliers, banking partners and concurrently providing support for
+            back office colleagues responsible for compliance management, and
+            accounting tasks.<br></br>
+            <b>Responsibilities</b> : Owning resolution of AP queries/disputes, POs related queries, payment queries •Post
+            transactions to journals, ledgers and other records •Manage BACS/CHAPS/SEPA payments •Reconcile and analysis of
+            accounts payable transactions •Liaising with accounting supervisors and managers to ensure the correct coding and allocation of
+            costs •Maintain customer master data files •Maintain vendor master data files •Administer queries via telephone or email
+          </p>
+        </div>
+        <button class="collapsible">
+          <b>Accounts Assistant - NEC (UK) Ltd</b>
+        </button>
+        <div class="content">
+          <p>
+            <b>Description</b> :<br></br>
+            <b>Responsibilities</b> :
+          </p>
+        </div>
+        <button class="collapsible">
+          <b>Reconciliaiton Assistant - Savills Ltd</b>  
+        </button>
+        <div class="content">
+          <p>
+            <b>Description</b> :<br></br>
+            <b>Responsibilities</b> :
+          </p>
+        </div>
+        <button class="collapsible">
+        <b>Accounts Assistant - WebDMUK Ltd</b>  
+        </button>
+        <div class="content">
+          <p>
+            <b>Description</b> :<br></br>
+            <b>Responsibilities</b> :
+          </p>
+        </div>
+      </div>
       <div class="skill-content">
         <div class="skill-item">HTML</div>
         <div class="skill-item">CSS</div>
@@ -71,5 +156,22 @@
         </ul>
       </div>
     </footer>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
