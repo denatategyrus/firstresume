@@ -2,22 +2,18 @@
 
 body {
   font-family: consolas;
-
   background-color: #313a3a;
 }
 .main {
   margin: 3rem;
 }
-.profile-pic {
-  margin-top: 14.5rem;
-  position: absolute;
-}
-/*margin-left: 19rem;}*/
 
 .home-title {
   color: teal;
   font-size: 7rem;
-  margin: auto;
+  margin-top: 37rem;
+  margin-left: 9rem;
+  position: absolute;
 }
 
 .home-header {
@@ -75,7 +71,14 @@ body {
   padding-top: 1rem;
   background-color: rgb(206, 203, 203);
 }
-.work-experience{text-align: center; font-size: 2rem;}
+.work-experience {
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 9px 0 30px 10px #313a3a;
+  height: 3rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
 
 .collapsible {
   box-shadow: 0 0 20px 1px #313a3a;
